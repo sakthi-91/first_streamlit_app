@@ -21,5 +21,4 @@ streamlit.header("Fruityvice Fruit Advice!")
 # lets normalise the json imput
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # Display the table on the page.
-streamlit.dataframe(fruityvice_normalized
-
+streamlit.dataframe(fruityvice_normalized)
